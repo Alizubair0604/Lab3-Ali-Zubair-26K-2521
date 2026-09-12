@@ -11,7 +11,7 @@ int main() {
 	
 	basiccost= dataused*pricepergb;
 	
-	if(dataused>=200.0) {
+	if(dataused>=200) {
 		discountrate=0.15;
 	}
 	else if (dataused>=100) {
